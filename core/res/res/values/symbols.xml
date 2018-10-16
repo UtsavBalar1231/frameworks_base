@@ -3421,4 +3421,5 @@
   <java-symbol type="string" name="config_misprovisionedBrandValue" />
  
   <java-symbol type="string" name="config_defaultAssistantComponentName" />
+<java-symbol type="dimen" name="recents_task_view_rounded_corners_radius" />
 </resources>

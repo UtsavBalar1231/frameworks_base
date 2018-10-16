@@ -199,7 +199,6 @@
          value chosen by ActivityManager based on screen size.  0 prevents keeping any extra
          memory over what the kernel keeps by default.  -1 keeps the default. -->
     <integer name="config_extraFreeKbytesAbsolute">-1</integer>
-
     <!-- Device configuration adjusting the /proc/sys/vm/extra_free_kbytes tunable in the kernel
          (if it exists).  0 uses the default value chosen by ActivityManager.  A positive value
          will increase the amount of memory that the kernel tries to keep free, reducing
@@ -387,7 +386,6 @@
         <item>eth2;;ip=192.168.0.11/24</item>
         -->
     </string-array>
-
     <!-- If the mobile hotspot feature requires provisioning, a package name and class name
         can be provided to launch a supported application that provisions the devices.
 
@@ -3527,5 +3525,5 @@
   
     <!-- Component name for default assistant on this device -->
     <string name="config_defaultAssistantComponentName"></string>
-
+	    <dimen name="recents_task_view_rounded_corners_radius">2.0dip</dimen>
   </resources>
