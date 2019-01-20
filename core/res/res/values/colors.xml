@@ -209,4 +209,8 @@
     <!-- FloatingToolbar -->
     <color name="floating_popup_divider_dark">#2F2F2F</color>
     <color name="floating_popup_divider_light">#E9E9E9</color>
+
+<!-- Toast colors -->
+    <color name="toast_bg">#E621272b</color>
+    <color name="toast_text">@color/white</color>
 </resources>
