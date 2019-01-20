@@ -22,7 +22,6 @@ import android.annotation.Nullable;
 import android.annotation.StringRes;
 import android.app.INotificationManager;
 import android.app.ITransientNotification;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -33,7 +32,6 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.provider.Settings;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -71,8 +69,6 @@ import java.lang.annotation.RetentionPolicy;
 public class Toast {
     static final String TAG = "Toast";
     static final boolean localLOGV = false;
-
-    private boolean mShowIcon;
 
     /** @hide */
     @IntDef(prefix = { "LENGTH_" }, value = {
@@ -471,8 +467,6 @@ public class Toast {
                     context = mView.getContext();
                 }
 
-                boolean mShowIcon = Settings.System.getInt(context.getContentResolver(), Settings.System.TOAST_ICON, 1) == 1;
-
                 ImageView appIcon = (ImageView) mView.findViewById(android.R.id.icon);
                 if (appIcon != null) {
                     PackageManager pm = context.getPackageManager();
@@ -483,9 +477,7 @@ public class Toast {
                         // nothing to do
                     }
                     appIcon.setImageDrawable(icon);
-				    appIcon.setVisibility(mShowIcon ? View.VISIBLE : View.GONE);
                 }
-
                 mWM = (WindowManager)context.getSystemService(Context.WINDOW_SERVICE);
                 // We can resolve the Gravity here by using the Locale for getting
                 // the layout direction
