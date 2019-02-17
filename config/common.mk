@@ -237,6 +237,9 @@ PRODUCT_PACKAGES_DEBUG += \
     procrank \
     strace
 
+# Google Sans Font
+include vendor/lineage/config/fonts.mk
+
 # Conditionally build in su
 ifneq ($(TARGET_BUILD_VARIANT),user)
 ifeq ($(WITH_SU),true)
