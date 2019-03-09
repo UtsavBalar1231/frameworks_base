@@ -37,10 +37,10 @@
     <dimen name="status_bar_battery_icon_height">13.0dp</dimen>
 
     <!-- Width of the battery icon in the status bar. -->
-    <dimen name="status_bar_battery_icon_width">8.5dp</dimen>
+    <dimen name="status_bar_battery_icon_width">10dp</dimen>
 
     <!-- The font size for the clock in the status bar. -->
-    <dimen name="status_bar_clock_size">14sp</dimen>
+    <dimen name="status_bar_clock_size">12sp</dimen>
 
     <!-- The starting padding for the clock in the status bar. -->
     <dimen name="status_bar_clock_starting_padding">7dp</dimen>
@@ -49,7 +49,7 @@
     <dimen name="status_bar_clock_end_padding">0dp</dimen>
 
     <!-- Starting padding for a left-aligned status bar clock -->
-    <dimen name="status_bar_left_clock_starting_padding">0dp</dimen>
+    <dimen name="status_bar_left_clock_starting_padding">1dp</dimen>
 
     <!-- End padding for left-aligned status bar clock -->
     <dimen name="status_bar_left_clock_end_padding">7dp</dimen>
@@ -111,7 +111,7 @@
     <dimen name="notification_side_paddings">4dp</dimen>
 
     <!-- padding between the heads up and the statusbar -->
-    <dimen name="heads_up_status_bar_padding">8dp</dimen>
+    <dimen name="heads_up_status_bar_padding">10dp</dimen>
 
     <!-- heads up elevation that is added if the view is pinned -->
     <dimen name="heads_up_pinned_elevation">16dp</dimen>
@@ -841,7 +841,7 @@
     <!-- The height of a task view bar.  This has to be large enough to cover the action bar
          height in either orientation at this smallest width. -->
     <dimen name="recents_task_view_header_height">56dp</dimen>
-    <dimen name="recents_task_view_header_height_tablet_land">64dp</dimen>
+    <dimen name="recents_task_view_header_height_tablet_land">70dp</dimen>
 
     <!-- The padding of a button in the recents task view header. -->
     <dimen name="recents_task_view_header_button_padding">16dp</dimen>
@@ -849,11 +849,11 @@
 
     <!-- The radius of the rounded corners on a task view and its shadow (which can be larger
          to create a softer corner effect. -->
-    <dimen name="recents_task_view_rounded_corners_radius">2dp</dimen>
-    <dimen name="recents_task_view_shadow_rounded_corners_radius">6dp</dimen>
+    <dimen name="recents_task_view_rounded_corners_radius">8dp</dimen>
+    <dimen name="recents_task_view_shadow_rounded_corners_radius">10dp</dimen>
 
     <!-- The amount of highlight to make on each task view. -->
-    <dimen name="recents_task_view_highlight">1dp</dimen>
+    <dimen name="recents_task_view_highlight">2dp</dimen>
 
     <!-- The size of the lock-to-app button and its icon. -->
     <dimen name="recents_lock_to_app_size">56dp</dimen>
@@ -954,7 +954,7 @@
     <!-- Navigation bar shadow params. -->
     <dimen name="nav_key_button_shadow_offset_x">0dp</dimen>
     <dimen name="nav_key_button_shadow_offset_y">1dp</dimen>
-    <dimen name="nav_key_button_shadow_radius">0.5dp</dimen>
+    <dimen name="nav_key_button_shadow_radius">1dp</dimen>
 
     <!-- Smart reply button. Total height 48dp, visible height 32dp. -->
     <dimen name="smart_reply_button_spacing">8dp</dimen>
