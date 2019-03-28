@@ -34,17 +34,17 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height">@dimen/status_bar_height_portrait</dimen>
     <!-- Height of the status bar in portrait -->
-    <dimen name="status_bar_height_portrait">22dp</dimen>
+    <dimen name="status_bar_height_portrait">20dp</dimen>
     <!-- Height of the status bar in landscape -->
     <dimen name="status_bar_height_landscape">@dimen/status_bar_height_portrait</dimen>
     <!-- Height of area above QQS where battery/time go -->
-    <dimen name="quick_qs_offset_height">48dp</dimen>
+    <dimen name="quick_qs_offset_height">44dp</dimen>
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
     <dimen name="quick_qs_total_height">220dp</dimen>
     <!-- Height of the bottom navigation / system bar. -->
-    <dimen name="navigation_bar_height">48dp</dimen>
+    <dimen name="navigation_bar_height">44dp</dimen>
     <!-- Height of the bottom navigation bar in portrait; often the same as @dimen/navigation_bar_height -->
-    <dimen name="navigation_bar_height_landscape">48dp</dimen>
+    <dimen name="navigation_bar_height_landscape">44dp</dimen>
     <!-- Width of the navigation bar when it is placed vertically on the screen -->
     <dimen name="navigation_bar_width">48dp</dimen>
     <!-- Height of the bottom navigation / system bar in car mode. -->
@@ -55,20 +55,20 @@
     <!-- Width of the navigation bar when it is placed vertically on the screen in car mode -->
     <dimen name="navigation_bar_width_car_mode">96dp</dimen>
     <!-- Height of notification icons in the status bar -->
-    <dimen name="status_bar_icon_size">22dip</dimen>
+    <dimen name="status_bar_icon_size">20dip</dimen>
     <!-- Size of the giant number (unread count) in the notifications -->
     <dimen name="status_bar_content_number_size">48sp</dimen>
     <!-- Margin at the edge of the screen to ignore touch events for in the windowshade. -->
-    <dimen name="status_bar_edge_ignore">5dp</dimen>
+    <dimen name="status_bar_edge_ignore">6dp</dimen>
 
     <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">8dp</dimen>
+    <dimen name="rounded_corner_radius">10dp</dimen>
     <!-- Radius of the software rounded corners at the top of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">8dp</dimen>
+    <dimen name="rounded_corner_radius_top">10dp</dimen>
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">8dp</dimen>
+    <dimen name="rounded_corner_radius_bottom">10dp</dimen>
 
     <!-- Width of the window of the divider bar used to resize docked stacks. -->
     <dimen name="docked_stack_divider_thickness">48dp</dimen>
@@ -199,7 +199,7 @@
     <dimen name="notification_content_margin">20dp</dimen>
 
     <!-- The height of the progress bar. -->
-    <dimen name="notification_progress_bar_height">15dp</dimen>
+    <dimen name="notification_progress_bar_height">16dp</dimen>
 
     <!-- The top margin before the notification progress bar. -->
     <dimen name="notification_progress_margin_top">8dp</dimen>
@@ -280,7 +280,7 @@
     <dimen name="notification_messaging_spacing">6dp</dimen>
 
     <!-- The rounding for messaging images -->
-    <dimen name="messaging_image_rounding">4dp</dimen>
+    <dimen name="messaging_image_rounding">6dp</dimen>
 
     <!-- The minimum size for any image in messaging style in order to be displayed -->
     <dimen name="messaging_image_min_size">44dp</dimen>
@@ -296,7 +296,7 @@
     <dimen name="search_view_preferred_height">48dip</dimen>
 
     <!-- Dialog padding for round display -->
-    <dimen name="alert_dialog_round_padding">27dip</dimen>
+    <dimen name="alert_dialog_round_padding">24dip</dimen>
     <!-- Dialog title height -->
     <dimen name="alert_dialog_title_height">64dip</dimen>
     <!-- Dialog button bar width -->
@@ -506,16 +506,16 @@
     <dimen name="kg_small_widget_height">160dp</dimen>
 
     <!-- Rounded corner radius for video subtitles. -->
-    <dimen name="subtitle_corner_radius">2dp</dimen>
+    <dimen name="subtitle_corner_radius">4dp</dimen>
 
     <!-- Shadow radius for video subtitles. -->
-    <dimen name="subtitle_shadow_radius">2dp</dimen>
+    <dimen name="subtitle_shadow_radius">4dp</dimen>
 
     <!-- Shadow offset for video subtitles. -->
-    <dimen name="subtitle_shadow_offset">2dp</dimen>
+    <dimen name="subtitle_shadow_offset">4dp</dimen>
 
     <!-- Outline width for video subtitles. -->
-    <dimen name="subtitle_outline_width">2dp</dimen>
+    <dimen name="subtitle_outline_width">4dp</dimen>
 
     <!-- Minimum size of the fast scroller thumb's touch target. -->
     <dimen name="fast_scroller_minimum_touch_target">48dp</dimen>
@@ -676,7 +676,7 @@
     <dimen name="slice_padding">16dp</dimen>
 
     <!-- Default dialog corner radius -->
-    <dimen name="dialog_corner_radius">8dp</dimen>
+    <dimen name="dialog_corner_radius">10dp</dimen>
 
     <!-- Size of thumbnail used in the cross profile apps animation -->
     <dimen name="cross_profile_apps_thumbnail_size">72dp</dimen>

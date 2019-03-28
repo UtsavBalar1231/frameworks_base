@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+	<?xml version="1.0" encoding="utf-8"?>
 <!--
  * Copyright (c) 2006, The Android Open Source Project
  *
@@ -37,10 +37,10 @@
     <dimen name="status_bar_battery_icon_height">13.0dp</dimen>
 
     <!-- Width of the battery icon in the status bar. -->
-    <dimen name="status_bar_battery_icon_width">10dp</dimen>
+    <dimen name="status_bar_battery_icon_width">11dp</dimen>
 
     <!-- The font size for the clock in the status bar. -->
-    <dimen name="status_bar_clock_size">12sp</dimen>
+    <dimen name="status_bar_clock_size">13sp</dimen>
 
     <!-- The starting padding for the clock in the status bar. -->
     <dimen name="status_bar_clock_starting_padding">7dp</dimen>
