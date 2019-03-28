@@ -22,9 +22,9 @@
     android:background="@drawable/qs_detail_background"
     android:clickable="true"
     android:orientation="vertical"
-    android:paddingBottom="8dp"
+    android:paddingBottom="10dp"
     android:visibility="invisible"
-    android:elevation="4dp" >
+    android:elevation="3dp" >
 
     <include
         android:id="@+id/qs_detail_header"

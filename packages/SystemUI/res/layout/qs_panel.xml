@@ -25,8 +25,8 @@
     <View
         android:id="@+id/quick_settings_background"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:elevation="4dp"
+        android:layout_height="1dp"
+        android:elevation="3dp"
         android:background="@drawable/qs_background_primary" />
 
     <!-- Black part behind the status bar -->
@@ -42,7 +42,7 @@
     <View
         android:id="@+id/quick_settings_gradient_view"
         android:layout_width="match_parent"
-        android:layout_height="126dp"
+        android:layout_height="144dp"
         android:layout_marginTop="@*android:dimen/quick_qs_offset_height"
         android:clipToPadding="false"
         android:clipChildren="false"
@@ -55,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/qs_footer_height"
-        android:elevation="4dp"
+        android:elevation="3dp"
         android:background="@android:color/transparent"
         android:focusable="true"
         android:accessibilityTraversalBefore="@id/qs_carrier_text"
